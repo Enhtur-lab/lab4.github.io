@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #183153;
+    background-size: cover;
+    background-position: center;
+    
+    font-family: 'Cabin', sans-serif;
+    min-height: 100vh;
+}
+.head-bar {
+    background: #F2C53D;
+    text-align: center;
+}
+.head-bar ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+.head-bar ul li {
+    width: 140px;
+    margin: 15px;
+    padding: 10px;
+    font-family: 'Cabin', sans-serif;
+}
+.head-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.active, .head-bar ul li:hover {
+    background: green;
+    transition: 0.5s ease;
+    border-radius: 3px;
+}
+.sub-head {
+    display: none;
+}
+.head-bar ul li:hover .sub-head {
+    display: block;
+    position: absolute;
+    background: #F2C53D;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.head-bar ul li:hover .sub-head ul {
+    display: block;
+    margin: 10px;
+}
+.head-bar ul li:hover .sub-head ul li {
+    width: 120px;
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    text-align: left;
+}
+.profile {
+    padding-left: 90px;
+    width: 50%;
+    margin: 0 auto;
+}
+.profile img {
+    margin-top: 170px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid #F2C53D;
+}
+.left {
+    width: 25%;
+    float: left;
+    margin-left: 230px;
+    margin-top: 200px;
+    color: white;
+}
+.right {
+    width: 25%;
+    float: right;
+    margin-top: 200px;
+    margin-right: 150px;
+    color: white;
+}
+.container {
+    display: flex;
+}
+footer {
+    background-color: #F2C53D;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+}
