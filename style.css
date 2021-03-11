@@ -62,7 +62,7 @@ body {
     margin: 0 auto;
 }
 .profile img {
-    margin-top: 170px;
+    margin-top: 140px;
     height: 400px;
     width: 400px;
     border-radius: 50%;
@@ -72,13 +72,13 @@ body {
     width: 25%;
     float: left;
     margin-left: 230px;
-    margin-top: 200px;
+    margin-top: 170px;
     color: white;
 }
 .right {
     width: 25%;
     float: right;
-    margin-top: 200px;
+    margin-top: 170px;
     margin-right: 150px;
     color: white;
 }
@@ -91,7 +91,6 @@ footer {
     bottom: 0;
     height: 60px;
     text-align: center;
-    padding: 5px;
     width: 100%;
     font-family: 'Cabin', sans-serif;
     font-size: 30px;
